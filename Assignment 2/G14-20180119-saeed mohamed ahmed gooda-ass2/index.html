@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>Nitro</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="">
+        <link rel="stylesheet" href="index_style.css" type="text/css">
+        <script>
+            function about()
+            {
+                var xhttp = new XMLHttpRequest();
+                xhttp.onreadystatechange = function()
+                {
+                    if(this.readyState == 4 && this.status == 200)
+                        {
+                            document.getElementById("demo").innerHTML = this.responseText;
+                        }
+                };
+                xhttp.open("GET" , "about.html" , true);
+                xhttp.send();
+            }
+        </script>
+    </head>
+    <body>
+        <div class="header">
+            <a href="#default" class="logo">Nitro</a>
+            <div class="header-right">
+                <a href="#home">Home</a>
+                <a id="about" onclick="about()" href="#">About Us &dArr;</a>
+                <a href="#Portfolio">Portfolio</a>
+                <a href="#Services">Services</a>
+                <a href="#Testimonials">Testimonials</a>
+                <a href="#Blog">Blog</a>
+                <a href="#Contact">Contact</a>
+            </div>
+        </div>
+        
+        <div class="content">
+            <h1>WELCOME</h1>
+            <p class="n1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Optio soluta</p>
+            <p class="n2">eius error</p>
+            <input type="button" name="" value="Get In Touch" class="get_in_touch">
+        </div>
+        <div id="demo"></div>
+    </body>
+</html>

@@ -1,0 +1,55 @@
+.about .container h2
+{
+    text-align: center;
+    font-size: 33;
+    color: blue;
+    margin-top: 20px;
+}
+.about .container .content .image
+{
+    width: 420px;
+    height: 340px;
+    float: left;
+    margin-right: 15px;
+    margin-left: 250px;
+    margin-top: 20px;
+}
+.about .container .content2
+{
+    float: left;
+    margin-left: 40px;
+}
+.about .container .content2 h3
+{
+    font-size: 30px;
+}
+.about .container .content2 p
+{
+    line-height: 0.3;
+    color: darkgray;
+}
+.about .container .content2 .saeed1 , .about .container .content2 .saeed2  , .about .container .content2 .saeed3 , .about .container .content2 .saeed4 
+{
+    color: #0fb72d;
+}
+.about .container .content2 .saeed1 , .about .container .content2 .sa1
+{
+    display: inline;
+}
+.about .container .content2 .saeed2 , .about .container .content2 .sa2
+{
+    display: inline;
+}
+.about .container .content2 .saeed3 , .about .container .content2 .sa3
+{
+    display: inline;
+}
+.about .container .content2 .saeed4 , .about .container .content2 .sa4
+{
+    display: inline;
+}
+.about .container .content2 li
+{
+    color: darkgray;
+    margin-top: 12px;
+}

@@ -1,0 +1,52 @@
+body{
+                height: 100%;
+                margin: 0;
+                padding: 0;
+                background: url(wall-wallpaper-concrete-colored-painted-textured-concept_53876-31799.jpg);
+                background-size: cover;
+                background-position: center;
+                font-family: sans-serif;
+            }
+            .saeed{
+                width: 400px;
+                height: 460px;
+                background: #fff;
+                color: black;
+                top: 50%;
+                left: 50%;
+                position: absolute;
+                transform: translate(-50%,-50%);
+                box-sizing: border-box;
+                padding: 70px 30px;
+                border-radius: 50px;
+            }
+            .saeed input{
+                width: 100%;
+                margin-bottom: 30px;
+            }
+            .saeed input[type="text"]{
+                border-bottom: 2px solid #7a74;
+                background: #fff ;
+                outline: none;
+                heigth: 50px;
+                font-size: 20px;
+            }
+            .saeed input[type="button"]{
+                border: none;
+                outline: none;
+                height: 40px;
+                background: blue;
+                color: #fff;
+                font-size: 18px;
+            }
+            h1{
+                margin: 0;
+                padding: 0 0 30px;
+                text-align: center;
+                font-size: 30px;
+                color: blue;
+                background: 
+            }
+            span{
+                color: blue;
+            }

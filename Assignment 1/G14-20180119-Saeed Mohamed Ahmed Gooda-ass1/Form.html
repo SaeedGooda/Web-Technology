@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Division Calculator</title>
+        <link rel="stylesheet" href="style_Form.css" type="text/css">
+        <script>
+            function divideBy() 
+            { 
+                num1 = document.getElementById("firstNumber").value;
+                num2 = document.getElementById("secondNumber").value;
+                document.getElementById("result").innerHTML = num1 / num2;
+            }
+        </script>
+    </head>
+    <body>
+        <form class="saeed">
+            <h1>Calculator for Division</h1>
+            <input type="text" id="firstNumber" placeholder ="First Number"><br> 
+            <input type="text" id="secondNumber" placeholder ="Second Number">
+            <input type="button" onClick="divideBy()" Value="Divide" />
+            <span>The Result is : 
+                <span id = "result"></span>
+            </span>
+            <br><br>
+            <input type="button" value="Return" onclick="location.href='index.html'">
+        </form>
+        
+    </body>
+</html>
+
