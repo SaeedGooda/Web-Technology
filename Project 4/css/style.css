@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 1100px;
+    margin: auto;
+}
+/* Start navbar */
+.navbar{
+    background-color: #232323;
+    overflow: hidden;
+}
+.navbar h2{
+    float: left;
+    color: #FFF;
+    margin: 25px 0;
+    text-transform: uppercase;
+}
+.navbar h2 span{
+    color: #f33f3f;
+}
+.navbar ul{
+    list-style: none;
+    float: right;
+    overflow: hidden;
+    margin-top: 30px;
+}
+.navbar ul li{
+    float: left;
+    display: block;
+    margin-left: 30px;
+    color: #FFF;
+    height: 45px;
+    padding: 0 10px;
+    font-weight: bold;
+}
+.navbar ul li.active{
+    border-bottom: 5px solid #f33f3f;
+}
+.navbar ul li:hover{
+    border-bottom: 5px solid #f33f3f;
+}
+/* End navbar */
+/* Start slider */
+.slider{
+    background-image: url(../images/slider.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 260px 100px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.slider h3{
+    color: #f33f3f;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.slider h1{
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 62px;
+    letter-spacing: 5px;
+}
+/* End slider */
+/* Start our products */
+.our-products{
+    overflow: hidden;
+}
+.our-products .head{
+    overflow: hidden;
+}
+.our-products .head h2{
+    float: left;
+    font-size: 28px;
+    font-weight: 400;
+    color: #1e1e1e;
+    margin-bottom: 15px;
+}
+.our-products .head a{
+    float: right;
+    text-decoration: none;
+    color: #f33f3f;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 13px;
+    margin-top: 10px;
+}
+hr{
+    border: 0.5px solid #DDD;
+}
+.our-products .products{
+    margin-top: 65px;
+    overflow: hidden;
+}
+.our-products .products > div{
+    width: 31%;
+    margin-right: 2.15%;
+    margin-bottom: 30px;
+    float: left;
+    overflow: hidden;
+    border: 1px solid #DDD;
+}
+.our-products .products div .special{
+    float: left;
+    overflow: hidden;
+    padding: 30px;
+}
+.our-products .products div .special h3{
+    float: left;
+    font-size: 18px;
+    color: #1a6692;
+    margin-bottom: 20px;
+    letter-spacing: 0.5px;
+}
+.our-products .products div .special span{
+    float: right;
+    color: #121212;
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: -1px;
+    margin-right: 20px;
+}
+.our-products .products div .special p{
+    float: left;
+    font-size: 15px;
+    color: #4a4a4a;
+    line-height: 1.7;
+}
+.our-products .products div .special ul{
+    float: left;
+    overflow: hidden;
+    list-style: none;
+    margin-top: 20px;
+}
+.our-products .products div .special ul li{
+    float: left;
+    padding-left: 3px;
+    color: #f33f3f;
+}
+.our-products .products div .special h4{
+    float: right;
+    margin-top: 20px;
+    color: #f33f3f;
+    font-weight: 500;
+    font-size: 14px;
+}
+/* End our products */
+/* Start about us */
+.about-us{
+    margin-top: 60px;
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+.about-us .head{
+    overflow: hidden;
+}
+.about-us .head h2{
+    float: left;
+    font-size: 28px;
+    font-weight: 400;
+    color: #1e1e1e;
+    margin-bottom: 15px;
+}
+.about-us .about{
+    float: left;
+    width: 50%;
+    margin-top: 60px;
+    overflow: hidden;
+}
+.about-us .about h4{
+    color: #1a6692;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+.about-us .about p{
+    color: #4a4a4a;
+    line-height: 1.7;
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.about-us .about p span{
+    color: #0056b3;
+}
+.about-us .about ul{
+    list-style: square inside;
+}
+.about-us .about ul li{
+    padding-bottom: 10px;
+}
+.about-us .about ul li a{
+    text-decoration: none;
+    color: #4a4a4a;
+}
+.about-us .about ul li a:hover{
+    color: #f33f3f;
+}
+.about-us .about button{
+    margin-top: 20px;
+    border: 0;
+    padding: 12px 20px;
+    background-color: #f33f3f;
+    color: #FFF;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.about-us .image{
+    margin-top: 60px;
+    float: left;
+    width: 48%;
+    margin-left: 2%;
+}
+.about-us .image img{
+    width: 100%;
+}
+/* End about us */
+/* Start footer */
+.footer{
+    overflow: hidden;
+    background-color: #f2f2f2;
+    padding: 30px 0;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.footer p{
+    float: left;
+    color: #4f4f4f;
+}
+.footer p span{
+    color: #f33f3f;
+    cursor: pointer;
+}
+.footer ul{
+    list-style: none;
+    float: right;
+    overflow: hidden;
+}
+.footer ul li{
+    float: left;
+    padding-left: 15px;
+    color: #4f4f4f;
+    cursor: pointer;
+}
+.footer ul li:hover{
+    color: #f33f3f;
+}
+/* End footer */

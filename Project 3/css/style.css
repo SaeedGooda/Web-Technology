@@ -1,0 +1,376 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1140px;
+    margin: auto;
+}
+/* Start header */
+.header{
+    background-image: url(../images/slider.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 625px;
+}
+.header .navbar{
+    overflow: hidden;
+    padding: 40px 0;
+}
+.header .navbar h3{
+    color: #FFF;
+    float: left;
+    padding-top: 10px;
+}
+.header .navbar h3 span{
+    color: #ce3232;
+}
+.header .navbar ul{
+    padding-top: 10px;
+    list-style: none;
+    overflow: hidden;
+    float: left;
+    padding-left: 110px;
+}
+.header .navbar ul li{
+    float: left;
+    display: block;
+    padding-right: 40px;
+}
+.header .navbar ul li a{
+    text-decoration: none;
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.header .navbar ul li a:hover{
+    color: #ce3232;
+}
+.header .navbar ul li.differ{
+    padding-left: 100px;
+}
+.header .navbar ul li:last-of-type{
+    margin-top: -10px;
+}
+.header .navbar ul li:last-of-type a{
+    float: left;
+    color: #FFF;
+    background-color: #ce3232;
+    border: 0;
+    padding: 10px 20px;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+.header .navbar ul li:last-of-type a:hover{
+    background-color: #333;
+}
+/* Start home */
+.header .home{
+    margin-top: 120px;
+    padding-left: 10px;
+    color: #FFF;
+}
+.header .home h3{
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.header .home h1{
+    width: 70%;
+    font-size: 46px;
+    letter-spacing: 0.25px;
+    margin-bottom: 30px;
+}
+.header .home button{
+    background: transparent;
+    color: #FFF;
+    padding: 10px 25px;
+    font-size: 16px;
+    border: 1px solid #FFF;
+}
+.header .home button:hover{
+    background-color: #ce3232;
+    border: 0;
+}
+/* End home */
+/* End header */
+/* Start about */
+.about{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    overflow: hidden;
+}
+.about .content{
+    float: left;
+    width: 50%;
+}
+.about .content h2{
+    color: #353535;
+    font-size: 2em;
+    line-height: 1.4;
+}
+.about .content p:first-of-type{
+    color: #bfbdbd;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.about .content p{
+    margin-top: 20px;
+    color: #757575;
+    line-height: 1.7;
+}
+.about .content p a{
+    text-decoration: none;
+    color: #252525;
+}
+.about .content p a:hover{
+    color:#ce3232;
+}
+.about .image{
+    float: left;
+    width: 50%;
+}
+.about .image img{
+    padding-left: 10%;
+    padding-top: 40px;
+    width: 100%;
+}
+/* End about */
+/* Start chef */
+.chef{
+    background-color: #f9f9f9;
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+.chef .head{
+    padding-bottom: 30px;
+    text-align: center;
+}
+.chef .head h2{
+    color: #353535;
+    letter-spacing: 0.5px;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+.chef .head p{
+    color: #bfbdbd;
+    letter-spacing: 1px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.chef .team{
+    overflow: hidden;
+}
+.chef .team div{
+    float: left;
+    width: 30%;
+    padding-left: 3%;
+    text-align: center;
+}
+.chef .team div img{
+    width: 100%;
+}
+.chef .team div h3{
+    color: #454545;
+    font-size: 1.5em;
+    margin-top: 30px;
+}
+.chef .team div p{
+    color: #bfbdbd;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+/* End chef */
+/* Start menu */
+.menu{
+    padding-top: 100px;
+}
+.menu .head{
+    padding-bottom: 30px;
+    text-align: center;
+}
+.menu .head h2{
+    color: #353535;
+    letter-spacing: 0.5px;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+.menu .head p{
+    color: #bfbdbd;
+    letter-spacing: 1px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.menu .foods{
+    overflow: hidden;
+}
+.menu .foods img{
+    float: left;
+    width: 33.33333%;
+}
+/* End menu */
+/* Start testimonials */
+.testimonials{
+    background-image: url(../images/testimonial-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 472px;
+    color: #FFF;
+    text-align: center;
+}
+.testimonials h2{
+    padding-top: 120px;
+    font-size: 2em;
+}
+.testimonials p{
+    color: #d9d9d9;
+    line-height: 1.9;
+    font-size: 1.3em;
+    margin: 40px 250px 0;
+}
+.testimonials p:last-of-type{
+    color: #b2b2b2;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.testimonials p:last-of-type span{
+    font-weight: normal;
+    font-size: 16px;
+}
+/* End testimonials */
+/* Start contact */
+.contact{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    overflow: hidden;
+}
+.contact .map{
+    float: left;
+    width: 50%;
+}
+.contact .map img{
+    width: 100%;
+    height: 405px;
+}
+.contact .message{
+    float: left;
+    margin-left: 3%;
+    width: 47%;
+}
+.contact .message h2{
+    color: #353535;
+    font-size: 2em;
+}
+.contact .message form input , .contact .message form textarea{
+    width: 45%;
+    margin-right: 4%;
+    margin-top: 20px;
+    border: 0;
+    border-bottom: 1px solid #DDD;
+    font-size: 16px;
+    height: 55px;
+}
+.contact .message form input[placeholder="Subject"]{
+    width: 96%;
+    margin-bottom: 20px;
+}
+.contact .message form textarea{
+    width: 96%;
+    height: 100px;
+}
+.contact .message form input::placeholder , .contact .message form textarea::placeholder{
+    color: #AAA;
+}
+.contact .message form button{
+    width: 96%;
+    margin-top: 20px;
+    height: 50px;
+    border: 0;
+    color: #FFF;
+    background-color: #ce3232;
+    font-size: 16px;
+    font-weight: bold;    
+}
+.contact .message form button:hover{
+    background-color: #333;
+    cursor: pointer;
+}
+/* End contact */
+hr{
+    border: 1px solid #DDD;
+}
+/* Start footer */
+.footer{
+    padding-top: 80px;
+    padding-bottom: 100px;
+    overflow: hidden;
+}
+.footer .find , .footer .reserve , .footer .hours , .footer .copy{
+    float: left;
+    width: 21%;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+.footer .find h2 , .footer .reserve h2{
+    color: #353535;
+    margin-bottom: 20px;
+}
+.footer .find p , .footer .reserve p{
+    color: #909090;
+    line-height: 1.7;
+}
+.footer .hours h3{
+    color: #353535;
+}
+.footer .hours p:first-of-type{
+    color: #909090;
+    margin-top: 20px;
+}
+.footer .hours p{
+    color: #909090;
+}
+.footer .hours h4{
+    color: #353535;
+    margin-top: 15px;
+    margin-bottom: 4px;
+}
+.footer .copy ul{
+    list-style: none;
+    overflow: hidden;
+}
+.footer .copy ul li{
+    float: left;
+    margin-right: 25px;
+    color: #ce3232;
+    cursor: pointer;
+    width: 22px;
+    height: 22px;
+    text-align: center;
+}
+.footer .copy ul li:hover{
+    background-color: #ce3232;
+    color: #FFF;
+    border-radius: 10px;
+}
+.footer .copy p{
+    color: #909090;
+    margin-top: 20px;
+}
+/* End footer */

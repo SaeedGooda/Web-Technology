@@ -1,0 +1,518 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 1140px;
+    margin: auto;
+}
+/* Start main */
+.main{
+    height: 625px;
+    background-image: url(../images/cover.jpg);
+    background-size: cover;
+}
+/* Start navbar */
+.main .navbar{
+    background-color: #656c7461;
+    overflow: hidden;
+}
+.main .navbar h1{
+    float: left;
+    color: #FFF;
+}
+.main .navbar h1 span{
+    color: #f1553b;
+}
+.main .navbar ul{
+    list-style: none;
+    overflow: hidden;
+    float: right;
+    padding-top: 8px;
+}
+.main .navbar ul li{
+    float: left;
+    padding: 20px;
+    color: #FFF;
+    font-size: 20px;
+}
+.main .navbar ul li a{
+    text-decoration: none;
+    color: #FFF;
+}
+.main .navbar ul li.active a{
+    color: #f1553b;
+}
+.main .navbar ul li a:hover{
+    color: #f1553b;
+}
+.main .navbar ul li button{
+    padding: 8px;
+    margin-top: -10px;
+    color: #FFF;
+    background-color: #f1553b;
+    border: 0;
+    cursor: pointer;
+}
+/* End navbar */
+/* Start content */
+.main .content{
+    margin-top: 200px;
+    text-align: center;
+    color: #FFF;
+    text-transform: uppercase;
+}
+.main .content h1{
+    font-size: 80px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.main .content h1 span{
+    color: #f1553b;
+}
+.main .content button{
+    padding: 14px;
+    text-transform: uppercase;
+    color: #FFF;
+    background-color: #f1553b;
+    border: 0;
+    cursor: pointer;
+}
+/* End content */
+/* End main */
+
+/* Start features */
+.features .head{
+    padding-top: 100px;
+    text-align: center;
+}
+.features .head h2{
+    color: #262a42;
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.features .head h2 span{
+    color: #f1553b;
+}
+.features .head img{
+    margin-bottom: 20px;
+}
+.features .head p{
+    color: #9595a6;
+    font-weight: 600;
+    margin-left: 300px;
+    margin-right: 300px;
+    line-height: 1.7;
+}
+.features .body{
+    margin-top: 80px;
+    overflow: hidden;
+}
+.features .body div{
+    width:48%;
+    float: left;
+    line-height: 25px;
+    margin-bottom: 60px;
+}
+.features .body .for_margin{
+    padding-left: 3%;
+    padding-right: 1%;
+}
+.features .body div img{
+    float: left;
+    margin-right: 30px;
+    margin-left: 10px;
+}
+.features .body div h3{
+    color: #232d39;
+    font-weight: 600;
+}
+.features .body div p{
+    color: #888;
+    font-size: 15px
+}
+.features .body div  a{
+    text-decoration: none;
+    color: #f1553b;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+}
+.features .body div .mark{
+    text-decoration: none;
+    color: #007bff;
+    text-transform: capitalize;
+}
+/* End features */
+
+/* Start about */
+.about{
+    padding: 120px 0;
+    background-image: url(../images/cta-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-top: 70px;
+}
+.about h1{
+    font-size: 36px;
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.about h1 span{
+    color: #f1553b;
+}
+.about p{
+    color: #FFF;
+    font-weight: bold;
+    line-height: 1.7;
+    margin: 0 120px;
+    margin-bottom: 40px;
+}
+.about button{
+    text-transform: uppercase;
+    padding: 15px;
+    margin-top: -10px;
+    color: #FFF;
+    background-color: #f1553b;
+    border: 0;
+    cursor: pointer;
+}
+/* End about */
+/* Start classes */
+.classes{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.classes .head{
+    text-align: center;
+}
+.classes .head h2{
+    color: #262a42;
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.classes .head h2 span{
+    color: #f1553b;
+}
+.classes .head img{
+    margin-bottom: 20px;
+}
+.classes .head p{
+    color: #9595a6;
+    font-weight: 600;
+    margin-left: 300px;
+    margin-right: 300px;
+    line-height: 1.7;
+}
+.classes .training-class{
+    float: left;
+    width: 33.3333%;
+    overflow: hidden;
+    margin-top: 60px;
+}
+.classes .training-class ul{
+    padding-top: 10px;
+    list-style: none;
+    float: left;
+    width: 100%;
+}
+.classes .training-class ul li{
+    font-size: 20px;
+    background-color: #FFF;
+    margin: 10px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+}
+.classes .training-class ul li.active a{
+    color: #f1553b;
+}
+.classes .training-class ul li a:hover{
+    color: #f1553b;
+}
+.classes .training-class ul li a{
+    text-decoration: none;
+    font-weight: 600;
+    display: inline-block;
+    color: #232d39;
+    overflow: hidden;
+    width: 100%;
+    padding: 30px;
+}
+.classes .training-class ul li a img{
+    float: left;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.classes .training-class ul li a span{
+    float: left;
+    margin-top: 10px;
+    letter-spacing: 0.5px;
+}
+.classes .training-class ul li.button a{
+    color: #FFF;
+    background-color: #f1553b;
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 80px;
+    box-shadow: none;
+}
+.classes .train{
+    width: 62.333%;
+    overflow: hidden;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding-left: 4%;
+}
+.classes .train h3{
+    color: #232d39;
+    font-size: 23px;
+    margin: 20px 0;
+}
+.classes .train p{
+    font-size: 14;
+    color: #7a7a7a;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+.classes .train button{
+    padding: 15px;
+    color: #FFF;
+    background-color: #f1553b;
+    border: 0;
+    cursor: pointer;
+}
+/* End classes */
+/* Start schedule */
+.schedule{
+    padding: 0px 0px 140px 0px;
+    background-image: url(../images/schedule-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.schedule .head{
+    text-align: center;
+}
+.schedule .head h2{
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 900;
+    padding-top: 120px;
+    padding-bottom: 20px;
+}
+.schedule .head h2 span{
+    color: #f1553b;
+}
+.schedule .head img{
+    margin-bottom: 20px;
+}
+.schedule .head p{
+    color: #FFF;
+    margin-left: 300px;
+    margin-right: 300px;
+    line-height: 1.7;
+}
+.schedule .head ul{
+    list-style: none;
+    color: #FFF;
+    margin-top: 50px;
+}
+.schedule .head ul li{
+    display: inline;
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.schedule .head ul li:after{
+    content: "/";
+    margin-left: 20px;
+    color: #FFF;
+}
+.schedule .head ul li.no-after:after{
+    content: "";
+}
+.schedule .head ul li.active{
+    color: #f1553b;
+}
+.schedule .head ul li:hover{
+    color: #f1553b;
+}
+.schedule table {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+    border: 1px solid #FFF;
+} 
+
+.schedule table tbody tr td {
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    height: 100px;
+}  
+.schedule table tr td {
+    color: #fff;
+    font-size: 13px;
+    text-transform: capitalize;
+    font-weight: 500;
+    letter-spacing: 0.25px;
+}
+.schedule table tr td.no{
+    border-right: none;
+}
+.schedule table tr.no td{
+    border-bottom: none;
+}
+/* End schedule */
+/* Start testimonials */
+.testimonials{
+    padding-top: 100px;
+    overflow: hidden;
+}
+.testimonials .head{
+    text-align: center;
+}
+.testimonials .head h2{
+    color: #262a42;
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.testimonials .head h2 span{
+    color: #f1553b;
+}
+.testimonials .head img{
+    margin-bottom: 20px;
+}
+.testimonials .head p{
+    color: #9595a6;
+    font-weight: 600;
+    margin-left: 300px;
+    margin-right: 300px;
+    line-height: 1.7;
+}
+.testimonials .trainer{
+    padding-top: 80px;
+    overflow: hidden;
+}
+.testimonials .trainer div{
+    width: 24%;
+    margin-left: 2%;
+    margin-bottom: 100px;
+    float: left;
+    background-color: #FFF;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+    padding: 40px;
+}
+.testimonials .trainer div img{
+    width: 100%;
+}
+.testimonials .trainer div span{
+    color: #ed563b;
+    font-size: 13px;
+    font-weight: 500;
+    display: inline-block;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.testimonials .trainer div h4{
+    color: #232d39;
+    letter-spacing: 0.5px;
+    margin-bottom: 18px;
+}
+.testimonials .trainer div p{
+    color: #7a7a7a;
+    line-height: 1.7;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.testimonials .trainer div ul{
+    list-style: none;
+    overflow: hidden;
+}
+.testimonials .trainer div ul li{
+    float: left;
+    margin-right: 18px;
+}
+.testimonials .trainer div ul li a{
+    color: #000;
+}
+.testimonials .trainer div ul li a:hover{
+    color: #f1553b;
+}
+/* End testimonials */
+/* Start contact */
+.contact{
+    padding-top: 40px;
+    overflow: hidden;
+}
+.contact .map{
+    float: left;
+    width: 50%;
+}
+.contact .map img{
+    width: 100%;
+    height: 600px;
+}
+.contact .message{
+    width: 50%;
+    float: left;
+    background-image: url(../images/contact-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.contact .message form{
+    margin: 80px;
+    margin-bottom: 100px;
+    background-color: #FFF;
+}
+.contact .message form input , .contact .message form textarea{
+    color: #7a7a7a;
+    font-size: 13px;
+    margin-top: 40px;
+    margin-left: 40px;
+    padding: 8px;
+    width: 170px;
+    border: 1px solid #DDD;
+}
+.contact .message form input[name="subject"]{
+    width: 400px;
+    margin-top: 25px;
+}
+.contact .message form textarea{
+    width: 400px;
+    height: 150px;
+    margin-top: 25px;
+}
+.contact .message form input[type="submit"]{
+    font-size: 13px;
+    width: 150px;
+    height: 40px;
+    color: #FFF;
+    background-color: #f1553b;
+    margin-bottom: 30px;
+    margin-top: 25px;
+}
+.footer{
+    text-align: center;
+    padding: 30px 0;
+}
+.footer p {
+    color: #232d39;
+    font-size: 13px;
+}
+  
+.footer p a {
+    text-decoration: none;
+    color: #ed563b;
+}
+  
+/* End Contact */
